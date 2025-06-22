@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar Take a snapshot if do not added 1`] = `
+<Fragment>
+  <div
+    className="headNavBar"
+  >
+    <nav
+      className="nav"
+    >
+      <ul
+        className="leftSideList"
+      >
+        <li
+          className="barIcon"
+          id="hamburger"
+          onClick={[Function]}
+        >
+          <span
+            className="material-symbols-outlined"
+            style={
+              Object {
+                "transform": "",
+              }
+            }
+          >
+            menu_open
+          </span>
+        </li>
+        <li>
+          <div
+            className="navHeading"
+          >
+            Stock management app
+          </div>
+        </li>
+      </ul>
+      <ul
+        className="profileIcon"
+      >
+        <li
+          className="barIcon"
+          title="logout"
+        >
+          <span
+            className="material-symbols-outlined"
+            onClick={[Function]}
+          >
+            logout
+          </span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <SideNavBar />
+   
+  <Outlet />
+  <ToastContainer
+    autoClose={5000}
+    closeButton={[Function]}
+    closeOnClick={true}
+    draggable={true}
+    draggableDirection="x"
+    draggablePercent={80}
+    hideProgressBar={false}
+    newestOnTop={false}
+    pauseOnFocusLoss={true}
+    pauseOnHover={true}
+    position="bottom-right"
+    role="alert"
+    rtl={false}
+    theme="light"
+    transition={[Function]}
+  />
+</Fragment>
+`;

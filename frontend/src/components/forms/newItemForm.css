@@ -1,0 +1,88 @@
+.innerFormContainer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  box-shadow: 0px 0px 12px 1px #b3b3b3;
+}
+.innerFormContainer > div {
+  color: white;
+  padding: 1em;
+  text-align: center;
+  background: #323765;
+}
+.innerFormContainer > div > h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  width: 100%;
+}
+
+.errorMessage {
+  font-size: 0.7em;
+  text-align: left;
+  margin-top: -15px;
+  color: red;
+}
+
+#form > div > div:before {
+  content: "";
+  border: none;
+}
+.flexInputBoxForm {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+.flexInputBoxForm > div {
+  width: 49%;
+}
+
+.flexInputBoxForm > div > div {
+  width: 100%;
+}
+.flexFormErrorMessage {
+  font-size: 0.7em;
+  text-align: left;
+  color: red;
+}
+
+@media screen and (max-width: 745px) {
+  .flexInputBoxForm {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .flexInputBoxForm > div {
+    width: 100%;
+  }
+}
+
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+.submitButtonContainer > button {
+  cursor: pointer;
+  background: #323765;
+}
+.submitButtonContainer > button:hover {
+  background: #323765;
+  transform: scale(1.01);
+}
+.submitButtonContainer > button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+  color: white;
+  background: #737373;
+}

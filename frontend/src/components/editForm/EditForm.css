@@ -1,0 +1,73 @@
+.innerEditFormContainer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  box-shadow: 0px 0px 12px 1px #b3b3b3;
+}
+.innerEditFormContainer > div {
+  color: white;
+  padding: 1em;
+  background: #323765;
+  text-align: center;
+}
+.innerEditFormContainer > div > h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#editForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  width: 100%;
+}
+
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+.submitButtonContainer > button {
+  cursor: pointer;
+  background: #323765;
+}
+.submitButtonContainer > button:hover {
+  background: #323765;
+  transform: scale(1.01);
+}
+.submitButtonContainer > button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+  color: white;
+  background: #737373;
+}
+.flexInputBoxEditForm {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+.flexInputBoxEditForm > div {
+  width: 49%;
+}
+
+.flexInputBoxEditForm > div > div {
+  width: 100%;
+}
+.flexEditFormErrorMessage {
+  font-size: 0.7em;
+  text-align: left;
+  color: red;
+}
+@media screen and (max-width: 620px) {
+  .flexInputBoxEditForm {
+    flex-direction: column;
+  }
+  .flexInputBoxEditForm {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .flexInputBoxEditForm > div {
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.cardContainer {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}

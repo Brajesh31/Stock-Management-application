@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Take a snapshot if do not added 1`] = `
+<Fragment>
+  <div
+    className="cards"
+  >
+    <div
+      className="cardHeading"
+    >
+      <h4 />
+    </div>
+    <div
+      className="cardBody"
+    >
+      <div
+        className="manufacturingCompany"
+      >
+        Manufactured By : 
+      </div>
+      <div
+        className="dateContainer"
+      >
+        <div
+          className="dateTextContainer"
+        >
+          Date
+        </div>
+        <div
+          className="dateIconContainer"
+        >
+          <i
+            className="fa-solid fa-calendar-days"
+          />
+           11/04/2023
+        </div>
+      </div>
+      <div
+        className="priceQuantityContainer"
+      >
+        <div
+          className="quantityContainer"
+        >
+          Qty : 
+        </div>
+        <div
+          className="priceContainer"
+        >
+          ₹ : 
+        </div>
+      </div>
+      <div
+        className="crudButtons"
+      >
+        <Link
+          className="Link"
+          state={
+            Object {
+              "id": undefined,
+            }
+          }
+          title="Preview "
+          to="showdetails/undefined"
+        >
+          <ForwardRef(Button)
+            size="small"
+            sx={
+              Object {
+                "& .MuiButton-startIcon": Object {
+                  "margin": 0,
+                },
+                ":hover": Object {
+                  "bgcolor": "#323765",
+                  "color": "white",
+                },
+                "backgroundColor": "#323765",
+                "border": "1px solid",
+                "borderColor": "primary.main",
+                "borderRadius": 0,
+                "height": 35,
+                "minHeight": 35,
+                "minWidth": 35,
+                "width": 35,
+              }
+            }
+            variant="contained"
+          >
+            <i
+              className="fa-solid fa-eye"
+            />
+          </ForwardRef(Button)>
+        </Link>
+        <ForwardRef(Button)
+          onClick={[Function]}
+          size="small"
+          sx={
+            Object {
+              "& .MuiButton-startIcon": Object {
+                "margin": 0,
+              },
+              ":hover": Object {
+                "bgcolor": "#323765",
+                "color": "white",
+              },
+              "backgroundColor": "#323765",
+              "border": "1px solid",
+              "borderColor": "primary.main",
+              "borderRadius": 0,
+              "height": 35,
+              "minHeight": 35,
+              "minWidth": 35,
+              "width": 35,
+            }
+          }
+          title="Edit "
+          variant="contained"
+        >
+          <i
+            className="fa-solid fa-pencil"
+          />
+        </ForwardRef(Button)>
+        <ForwardRef(Button)
+          onClick={[Function]}
+          size="small"
+          sx={
+            Object {
+              "& .MuiButton-startIcon": Object {
+                "margin": 0,
+              },
+              ":hover": Object {
+                "bgcolor": "#323765",
+                "color": "white",
+              },
+              "backgroundColor": "#323765",
+              "border": "1px solid",
+              "borderColor": "primary.main",
+              "borderRadius": 0,
+              "height": 35,
+              "minHeight": 35,
+              "minWidth": 35,
+              "width": 35,
+            }
+          }
+          title="Delete"
+          variant="contained"
+        >
+          <i
+            className="fa-solid fa-trash"
+          />
+        </ForwardRef(Button)>
+      </div>
+    </div>
+  </div>
+  <ForwardRef(Dialog)
+    maxWidth="sm"
+    open={false}
+  >
+    <ForwardRef(DialogTitle)>
+      Are you sure to delete this item?
+    </ForwardRef(DialogTitle)>
+    <ForwardRef(DialogActions)>
+      <ForwardRef(Button)
+        onClick={[Function]}
+        sx={
+          Object {
+            ":hover": Object {
+              "background": "#323765",
+              "transform": "scale(1.01)",
+            },
+            "background": " #323765",
+          }
+        }
+        variant="contained"
+      >
+        Cancel
+      </ForwardRef(Button)>
+      <ForwardRef(Button)
+        onClick={[Function]}
+        sx={
+          Object {
+            ":hover": Object {
+              "background": "#323765",
+              "transform": "scale(1.01)",
+            },
+            "background": " #323765",
+          }
+        }
+        variant="contained"
+      >
+        Confirm
+      </ForwardRef(Button)>
+    </ForwardRef(DialogActions)>
+  </ForwardRef(Dialog)>
+</Fragment>
+`;

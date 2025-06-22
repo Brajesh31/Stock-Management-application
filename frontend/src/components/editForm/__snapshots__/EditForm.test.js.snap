@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditForm Take a snapshot if do not added 1`] = `
+<ForwardRef(Dialog)
+  fullWidth={true}
+  open={true}
+>
+  <div
+    className="innerEditFormContainer"
+  >
+    <div>
+      <h1>
+        UPDATE ITEM
+      </h1>
+    </div>
+  </div>
+  <ForwardRef(DialogContent)>
+    <form
+      action="localhost:5000/api/stock/additem"
+      id="editForm"
+      method="post"
+      onSubmit={[Function]}
+    >
+      <ForwardRef(TextField)
+        InputProps={
+          Object {
+            "style": Object {
+              "height": "50px",
+            },
+          }
+        }
+        id="filled-basic itemName"
+        label="Item Name"
+        name="itemName"
+        onChange={[Function]}
+        required={true}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        type="text"
+        value="Outlander Sport"
+        variant="filled"
+      />
+      <div
+        className="flexInputBoxEditForm"
+      >
+        <div>
+          <ForwardRef(TextField)
+            InputProps={
+              Object {
+                "inputProps": Object {
+                  "min": 0,
+                },
+                "style": Object {
+                  "height": "50px",
+                },
+              }
+            }
+            id="filled-basic"
+            label="Quantity"
+            name="quantity"
+            onChange={[Function]}
+            required={true}
+            type="number"
+            value={19}
+            variant="filled"
+          />
+        </div>
+        <div>
+          <ForwardRef(TextField)
+            InputProps={
+              Object {
+                "inputProps": Object {
+                  "min": 1,
+                },
+                "style": Object {
+                  "height": "50px",
+                },
+              }
+            }
+            id="filled-basic"
+            label="Price"
+            name="price"
+            onChange={[Function]}
+            required={true}
+            type="number"
+            value={4}
+            variant="filled"
+          />
+        </div>
+      </div>
+      <ForwardRef(TextField)
+        InputProps={
+          Object {
+            "style": Object {
+              "height": "50px",
+            },
+          }
+        }
+        id="filled-basic"
+        label="Manufacturing company"
+        name="manufacturingCompany"
+        onChange={[Function]}
+        required={true}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        type="text"
+        value="Mitsubishi"
+        variant="filled"
+      />
+      <ForwardRef(TextField)
+        label="Description"
+        multiline={true}
+        name="description"
+        onChange={[Function]}
+        required={true}
+        rows={2}
+        value="Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+        variant="filled"
+      />
+      <ForwardRef(TextField)
+        InputLabelProps={
+          Object {
+            "shrink": true,
+          }
+        }
+        InputProps={
+          Object {
+            "style": Object {
+              "height": "50px",
+            },
+          }
+        }
+        id="datetime-local"
+        label="Date Added On"
+        name="date"
+        onChange={[Function]}
+        type="date"
+        value="2022-10-18"
+        variant="filled"
+      />
+    </form>
+  </ForwardRef(DialogContent)>
+  <ForwardRef(DialogActions)
+    className="submitButtonContainer"
+  >
+    <ForwardRef(Button)
+      className="closeButton"
+      fullWidth={true}
+      onClick={[Function]}
+      sx={
+        Object {
+          "mb": 2,
+          "mt": 3,
+          "width": "50%",
+        }
+      }
+      variant="contained"
+    >
+      Close
+    </ForwardRef(Button)>
+     
+    <ForwardRef(Button)
+      disabled={true}
+      fullWidth={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      sx={
+        Object {
+          "mb": 2,
+          "mt": 3,
+          "width": "50%",
+        }
+      }
+      title="kindly make any modification"
+      type="submit"
+      variant="contained"
+    >
+      Update
+    </ForwardRef(Button)>
+  </ForwardRef(DialogActions)>
+</ForwardRef(Dialog)>
+`;

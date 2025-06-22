@@ -1,0 +1,87 @@
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  min-height: calc(100vh - 12vh);
+  padding: 2em;
+}
+.innerProfileContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.3em;
+  box-shadow: 0px 0px 12px 1px #b3b3b3;
+}
+.innerProfileContainer > div {
+  color: white;
+  padding: 1em;
+  text-align: center;
+  background: #323765;
+  border-top-right-radius: 0.3em;
+  border-top-left-radius: 0.3em;
+}
+.innerProfileContainer > div > h1 {
+  font-size: xxX-large;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.backButton {
+  position: absolute;
+  height: 2em;
+  width: 2em;
+  display: flex;
+  color: white;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.backButton a:active {
+  color: #323765;
+}
+.backButton a {
+  color: #323765;
+}
+.backButton:hover {
+  box-shadow: 0px 0px 8px black;
+}
+
+@media screen and (max-width: 620px) {
+  .profileContainer {
+    padding: 0.5em;
+  }
+  .innerProfileContainer {
+    width: 100%;
+  }
+}
+.profilePart {
+  background-color: white;
+  display: flex;
+  row-gap: 1em;
+  flex-wrap: wrap;
+  padding: 0.5em;
+  flex-direction: column;
+  border-radius: 0.3em;
+}
+.profileElement {
+  display: flex;
+  font-weight: 400;
+  font-size: x-large;
+  background-color: #eeee;
+  padding: 0.4em 1vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileElementHeading {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
