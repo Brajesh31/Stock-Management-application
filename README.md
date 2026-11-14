@@ -148,4 +148,4 @@ The CI workflow installs backend and frontend dependencies, builds the frontend,
 
 The repository currently demonstrates a multi-page inventory application and a basic API structure. It should be considered an educational or development-stage project until authentication, tenant isolation, database constraints, validation, deployment configuration, and automated tests are hardened.
 
-Last updated: 2026-11-14 04:29 UTC
+Last updated: 2026-11-14 11:49 UTC
